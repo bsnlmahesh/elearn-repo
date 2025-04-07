@@ -14,4 +14,11 @@ provider "azurerm" {
 }
   # Configuration options
 
-  
+resource "azurerm_resource_group" "rg" {
+  name     = "rg-azurerm-01"
+  location = "East US"
+  tags = {
+    environment = "dev"
+    owner       = "your_name"
+  }
+}
