@@ -22,3 +22,12 @@ resource "azurerm_resource_group" "rg" {
     owner       = "your_name"
   }
 }
+
+resource "azurerm_resource_group" "rg2" {
+  name     = "rg-azurerm-02"
+  location = "East US"
+  tags = {
+    environment = "dev"
+    owner       = "your_name"
+  }
+}
