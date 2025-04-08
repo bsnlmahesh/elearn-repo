@@ -31,3 +31,4 @@ resource "azurerm_resource_group" "rg2" {
     owner       = "your_name"
   }
 }
+line no1 added from rgadd
